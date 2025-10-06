@@ -1,66 +1,100 @@
-# Zomato-Data-Analysis-Using-Python
+<!-- Header Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff4b4b,100:f9c74f&height=180&section=header&text=🍽️%20Zomato%20Data%20Analysis%20Using%20Python&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
+</p>
 
-🍽️ Zomato Data Analysis Using Python
+<p align="center">
+  <b>📊 Extracting Business Insights from Zomato’s Restaurant Data using Python</b>
+</p>
 This project presents a comprehensive analysis of the Zomato restaurant dataset, aiming to extract meaningful business insights using Python. Through effective data cleaning, exploratory data analysis (EDA), and visual storytelling, the notebook uncovers trends in restaurant types, customer preferences, and service patterns across different cities.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter" />
+  <img src="https://img.shields.io/badge/Visualization-Seaborn%20|%20Matplotlib-yellow" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
 
-🎯 Objective
-The goal of this project is to:
+---
 
-Understand the structure and quality of data provided by Zomato.
+## 🎯 **Objective**
+The goal of this project is to explore and analyze the **Zomato restaurant dataset** to uncover meaningful trends and patterns that can help businesses make **data-driven decisions**.
 
-Identify patterns in cuisine preferences, ratings, delivery services, and cost.
+Specifically:
+- 🧠 Understand data structure & quality  
+- 🍜 Identify cuisine and restaurant trends  
+- 🌆 Examine ratings & delivery preferences across locations  
+- 💸 Analyze cost patterns in different cities
 
-Provide insights that can help restaurant businesses or food delivery platforms make data-driven decisions.
+---
 
-📌 Key Features
-✅ Data Cleaning
-Handles null values, removes duplicates, standardizes columns, and filters unnecessary features.
+## 📌 **Key Features**
 
-📊 Exploratory Data Analysis (EDA)
-Detailed visualizations and statistical summaries to answer key business questions:
+### 🧹 Data Cleaning
+- Handling null values  
+- Removing duplicates  
+- Standardizing column formats  
+- Filtering irrelevant features
 
-Which cities have the highest number of restaurants?
+### 📊 Exploratory Data Analysis (EDA)
+Answering critical business questions:
+- Which cities have the highest number of restaurants?  
+- What are the most popular cuisines?  
+- How do ratings vary by location and restaurant type?  
+- Is online delivery more common in certain areas?  
+- What’s the average cost for two across cities?
 
-What are the most common cuisines?
+### 📈 Visualization Tools
+- **Matplotlib** & **Seaborn** used for clear, insightful charts and plots.
 
-How does rating vary across locations and restaurant types?
+### 🧠 Data Preprocessing
+- Encoding categorical variables  
+- Preparing dataset for potential ML modeling
 
-Is online delivery more common in certain areas?
+---
 
-What is the average cost for two in different cities?
+## 🧰 **Tech Stack**
+- 🐍 Python 3  
+- 📊 Pandas, NumPy  
+- 📉 Matplotlib, Seaborn  
+- 📓 Jupyter Notebook
 
-📈 Visualization Tools
-Beautiful charts and graphs using matplotlib and seaborn to communicate insights effectively.
+---
 
-🧹 Data Preprocessing
-Encodes categorical variables and prepares the dataset for future modeling tasks.
+## 📁 **Dataset Overview**
+| Column | Description |
+|--------|-------------|
+| `Restaurant Name` | Name of the restaurant |
+| `Location` | City / Area |
+| `Cuisines` | Cuisine types served |
+| `Average Cost for two` | Cost for two people |
+| `Has Online delivery` | Yes / No |
+| `Aggregate rating` | Average customer rating |
+| `Votes` | Number of user ratings |
 
-🧰 Tech Stack
-Python 3
+> 📌 *Dataset Source: [Kaggle - Zomato Dataset](https://www.kaggle.com/datasets)*
 
-Pandas
+---
 
-NumPy
+## 🧠 **Insights**
+Here are some key findings from the analysis:
+- 🏙️ **Delhi NCR** has the maximum number of restaurants  
+- 🍕 **North Indian** is the most common cuisine  
+- ⭐ Ratings tend to be higher for fine dining than for cafés  
+- 🛵 Online delivery is more popular in metropolitan areas  
+- 💰 Average cost for two varies significantly between cities
 
-Matplotlib
+---
 
-Seaborn
+## 🛠️ **How to Run Locally**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Zomato-Data-Analysis-Using-Python.git
 
-Jupyter Notebook
+# Navigate to the project folder
+cd Zomato-Data-Analysis-Using-Python
 
-📁 Dataset Overview
-The Zomato dataset contains the following key columns:
+# Install required libraries
+pip install -r requirements.txt
 
-Restaurant Name
-
-Location
-
-Cuisines
-
-Average Cost for two
-
-Has Online delivery
-
-Aggregate rating
-
-Votes
+# Open Jupyter Notebook
+jupyter notebook
